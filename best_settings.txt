@@ -1,0 +1,8 @@
+FB15k-237 
+-n 1224 -b 240 -d 1000 -g 9 -a 1.0 -adv -lr .0005 --max_steps 180000 --test_batch_size 16 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+
+test on step 150000
+
+WN18RR
+-n 624  -b 512 -d 400 -g 5 -a 0.5 -adv -lr 0.0005 --max_steps 150000 --test_batch_size 8 --cuda --valid_steps 10000 --log_steps 10000 --do_valid
+test on step 150000
